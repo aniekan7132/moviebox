@@ -1,0 +1,30 @@
+.footer-container {
+ padding: 4rem 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.footer-text {
+ display: flex;
+ gap: 48px;
+}
+
+.footer-text p {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.44px;
+  text-align: left;
+  color: #111827;
+}
+
+.footer-copyright p {
+  color: #6b7280;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.44px;
+  text-align: left;
+}

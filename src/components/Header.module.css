@@ -1,0 +1,158 @@
+.header {
+  width: 100vw;
+  height: 90vh;
+  /* background-image: url("../assets/Poster(1).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+.header-description {
+  padding-left: 7rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+}
+
+.header-title {
+  font-size: 3rem;
+  color: #fff;
+  font-family: DM Sans;
+  width: 404px;
+  /* letter-spacing: 2px; */
+}
+
+.header-rating {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: -30px;
+}
+
+.header-rating-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-rating-1 p,
+.header-rating-2 p {
+  margin-left: 0.7rem;
+}
+
+.header-rating-2 {
+  display: flex;
+  align-items: center;
+}
+
+.header-overview {
+  color: #fff;
+  font-family: DM Sans;
+  width: 302px;
+}
+
+.header-button button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  aligh-items: center;
+  background: #be123c;
+  color: #fff;
+  border: none;
+  width: 169px;
+  font-family: DM Sans;
+}
+
+.header-numbers p {
+  position: relative;
+}
+
+.space {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.9rem;
+  background: #fff;
+  height: 2px;
+  width: 18px;
+  border-radius: 2rem;
+  display: inline-block;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-right: 7rem;
+  padding-left: 7rem;
+  z-index: 5;
+}
+
+.navbar form {
+  position: relative;
+}
+
+.navbar form input {
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.3rem;
+  letter-spacing: 0.5px;
+  width: 525px;
+  background: transparent;
+  border: 2px solid #d1d5db;
+}
+
+.navbar form input[type="text"] {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+
+.navbar form img {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+}
+
+.navbar form input::placeholder {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+
+.navbar form input:focus {
+  outline: none;
+}
+
+.signin-container {
+  display: flex;
+  width: 114px;
+  justify-content: space-between;
+}
+
+.signin-container p {
+  font-family: DM Sans;
+}
+
+.signin-container div {
+  position: relative;
+  background: #be123c;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.signin-container div img {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+}

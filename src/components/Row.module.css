@@ -1,0 +1,132 @@
+.row {
+  padding-right: 7rem;
+  padding-left: 7rem;
+}
+
+.row-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.row-title h1 {
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46.87px;
+  text-align: left;
+}
+
+.see-more-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 107px;
+  height: 24px;
+  gap: 8px;
+  opacity: 0px;
+}
+
+.see-more-container p {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #be123c;
+}
+
+.poster-row {
+  position: relative;
+}
+
+.arrow-prev {
+  z-index: 10;
+  position: absolute;
+  top: 30%;
+  left: -3.5rem;
+  transition: all .2s;
+}
+
+.arrow-prev:hover {
+  cursor: pointer;
+}
+
+.arrow-next {
+  z-index: 10;
+  position: absolute;
+  top: 30%;
+  right: -3.5rem;
+}
+
+.arrow-next:hover {
+  cursor: pointer;
+  /* background-color: #be123c; */
+}
+
+.row-posters-container {
+  display: flex;
+  gap: 80px;
+  /* width: 1240px; */
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.poster {
+  max-width: 250px;
+  /* height: 370px; */
+}
+
+.poster-location {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15.62px;
+  text-align: left;
+  color: #9ca3af;
+}
+
+.poster-title {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.44px;
+  text-align: left;
+  color: #111827;
+  margin-top: -5px;
+}
+
+.header-rating {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin-top: -20px;
+}
+
+.header-rating-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-rating-1 p,
+.header-rating-2 p {
+  color: #111827;
+  margin-left: 0.7rem;
+}
+
+.header-rating-2 {
+  display: flex;
+  align-items: center;
+}
+
+.poster-genre-title {
+  color: #9ca3af;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15.62px;
+  text-align: left;
+  margin-top: 2px;
+}
